@@ -68,8 +68,6 @@ const helpers = require('./helpers');
     for(let i in filePaths) {
       let file = filePaths[i];
       let comments = GetComments(file);
-    
-      // Then handle the comments
       await HandleComments(file, comments);
     }
     
