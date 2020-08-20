@@ -1,0 +1,20 @@
+{
+  "name": "doc-parser-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Alexandre PENOMBRE",
+    "email": "alexandre.penombre@gmail.com"
+  },
+  "dependencies": {
+    "extract-comments": "^1.1.0",
+    "minimist": "^1.2.5",
+    "rimraf": "^3.0.2",
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jest": "^26.0.1"
+  }
+}
